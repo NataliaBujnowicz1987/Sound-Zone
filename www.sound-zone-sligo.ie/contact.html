@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>The Sound Zone - Sligo</title>
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<meta name="author" content="Natalia Bujnowicz">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+	<div id="logo"><img src="images/logo.png"></div>
+	
+	<div id="box">
+		
+		<menu id="menu">
+		<button id="menu-button">MENU</button>
+			<ul id="show-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="index.html#about">About</a></li>
+				<li><a href="index.html#video">Promo Video</a></li>
+				<li><a href="index.html#game">Promo Game</a></li>
+				<li><a href="index.html#events">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</menu>
+
+	<div id="contact"> 
+		<h1> - CONTACT	-</h1> 
+		
+		<div id="form">
+				<hr>
+				<h3> Do you want to play in the Sound Zone or just have a question? </h3>
+				<hr>
+				<form action="#" method="post">
+					<br>
+					Your Name:<br> <input  class="input" name="name" type="text" placeholder="Enter your name" maxlength="50" autofocus required /><br/><br/>
+					Your Email: <br> <input class="input"  name="email" type="email" placeholder="Enter your e-mail" maxlength="50" required /><br/><br/>
+					
+					What kind of music do you like / do you play?<br>
+					<input type="radio" name="music" value="jungle"/>jungle</td>
+					<input type="radio" name="music" value="dnb"/>d'n'b</td>
+					<input type="radio" name="music" value="breaks"/>breaks</td>
+					<input type="radio" name="music" value="punk"/>punk</td>
+					<input type="radio" name="music" value="ska"/>ska</td>
+					<input type="radio" name="music" value="other"/>other</td>
+					
+					<br><br>
+					
+					Your Message:<br>  <textarea class="input"  name="message" placeholder="Enter your message" maxlength="1000" rows="5" required ></textarea><br/><br/>
+				
+					<button>Send message</button><br/><br/>
+			</form>
+		
+		</div>
+		
+		<div id="details">
+			<hr>	
+				<h3> More about us</h3>
+				<hr>
+			
+					<p>The Sound Zone <br>
+					Music Club <br>
+					Old Factory in Sligo <br>
+					Ireland
+					</p> 
+					<img src="images/dj.jpg"><br>
+					<p><a href="index.html">www.sound-zone-sligo.ie</a></p>
+					<p><a href="mailto:sound-zone@sligo.ie">sound-zone@sligo.ie</a></p>
+					<p><a href="tel:+353-089-247-96-76">+(353)-089-247-96-76</a></p>
+
+		</div>
+	
+	<div style="clear:both"></div>
+	
+	</div><br><br>
+
+	<footer>|&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">www.sound-zone-sligo.ie</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;Created by Natalia Bujnowicz&nbsp;&nbsp;&nbsp;&nbsp;  |  &nbsp;&nbsp;&nbsp;&nbsp;Digital Multimedia Project 2019 &nbsp;&nbsp;&nbsp;&nbsp; |</footer>
+
+	
+<script>
+
+  // rensponsive menu
+
+    $(document).ready(function(){
+
+        $('#menu-button').click(function(){
+
+        $('#show-menu').stop().slideToggle(300); 
+
+        }); 
+
+    });  
+
+</script>
+
+</body>

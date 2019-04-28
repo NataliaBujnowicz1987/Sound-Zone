@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="utf-8">
+	<title>The Sound Zone - Sligo</title>
+	<meta name="description" content="#">
+	<meta name="keywords" content="#">
+	<meta name="author" content="Natalia Bujnowicz">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge,chrome=1">
+	
+	<link rel="stylesheet" href="style.css">
+	
+    <!-- load jQuery and the plugin -->
+    <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+
+</head>
+
+<body>
+
+	
+	<div id="logo"><img src="images/logo.png"></div>
+	
+	
+	<div id="box">
+		
+		<menu id="menu">
+		<button id="menu-button">MENU</button>
+			<ul id="show-menu">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#video">Promo Video</a></li>
+				<li><a href="#game">Promo Game</a></li>
+				<li><a href="#events">Events</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</menu>
+
+		<div id="about"> 
+			<h1> - ABOUT	- </h1> 
+			<p>Sound Zone is a totally new place in this part of Ireland. Our goal is to promote jungle, dnb and breakbeat music, we've wanted to create positive and open place for everyone who wants to feel a   different music experience. We based on  London's music culture - the heart of electronic music. <br><br>
+			Sound Zone is a music club, located in the old factory in Sligo - we have 2 main stages there  - for bigger and smaller events. This place is open every weekend (from Friday to Sunday). We start early morning with workshops and  diffrent music competitions - there are diffrent activities every weekend, check the events tab regularly.<br><br>
+			The founders of Sound Zone are Buster Bloodvessel, a famous vocalist of the English ska band - Bad Manners, and a well-known drum and bass producer and one of the best dj's in the world - dj Hype. Sound Music exists in Sligo, Copenhague, London and Warsaw in Poland.</p>
+		</div>
+
+	</div><br><br>
+	
+	<div id="video"> 
+		<h1>- VIDEO - </h1>
+		<video width="820" height="auto" style="border: 1px solid #fff" controls>
+		 <source src="video\sound-zone.mp4" type="video/mp4">
+		 <source src="video\sound-zone.ogg" type="video/ogg">
+		Your browser does not support the video tag. Please use Google Chrom.
+		</video><br><br>
+	</div><br><br>
+	
+	<div id="game"> 
+		<h1> - GAME - </h1>
+		<iframe id="iframe" src="https://c.simmer.io/static/unityFrame/index.html?url=https%3A%2F%2Fsimmercdn.com%2Funity%2FVPYZWraiILQcX0D0zJwLEPtyg4D2%2Fcontent%2Fcd993d5c-7e95-ca55-d6d6-9e36650b9cef&imagePath=screens/0.png" style="width:78%; height:480px; border:1px solid #fff"></iframe><br><br>
+		
+	
+	</div><br><br>
+	
+	<div id="events"> 
+		<h1>- EVENTS - </h1>
+		
+		<div class="posters"><img src="images\poster1.png"></div>
+		<div class="posters"><img src="images\poster3.png"></div>
+		<div class="posters"><img src="images\poster2.png"></div>
+		<div class="posters"><img src="images\poster4.png"></div>
+		<br><br>
+		
+	</div><br><br>
+	
+	<div style="clear:both">s</div>
+	
+	<footer>|&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">www.sound-zone-sligo.ie</a>&nbsp;&nbsp;&nbsp;&nbsp;| &nbsp;&nbsp;&nbsp;&nbsp;Created by Natalia Bujnowicz&nbsp;&nbsp;&nbsp;&nbsp;  |  &nbsp;&nbsp;&nbsp;&nbsp;Digital Multimedia Project 2019 &nbsp;&nbsp;&nbsp;&nbsp; |</footer>
+	
+<script>
+
+  // rensponsive menu
+
+    $(document).ready(function(){
+
+        $('#menu-button').click(function(){
+
+        $('#show-menu').stop().slideToggle(300); 
+
+        }); 
+
+    });  
+
+
+</script>
+	
+
+
+
+
+</body>
